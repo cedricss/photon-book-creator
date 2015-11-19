@@ -1,0 +1,46 @@
+entries:
+
+- title: Entry 1
+  pages:
+
+  - title: Page 1
+    url: /page-1.html
+    sections:
+    - title: Section a
+    - title: Section b
+    - title: Section c
+
+  - title: Page 2
+    url: /page-2.html
+    sections:
+    - title: Section a
+    - title: Section b
+    - title: Section c
+
+  - title: Page 3
+    url: /page-3.html
+    sections:
+    - title: Section a
+    - title: Section b
+    - title: Section c
+
+- title: Entry 2
+  pages:
+
+  - title: Page 4
+    url: /page-4.html
+
+  - title: Page 5
+    url: /page-5.html
+
+- title: Entry 3
+  pages:
+
+  - title: Page 6
+    url: /page-6.html
+
+  - title: Page 7
+    url: /page-7.html
+
+  - title: Page 8
+    url: /page-8.html

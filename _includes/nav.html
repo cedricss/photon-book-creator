@@ -1,0 +1,11 @@
+<h1>{{ site.name }}</h1>
+{% for entry in site.data.toc.entries %}
+<h2>{{ entry.title }}</h2>
+<ul>
+    {% for page in entry.pages %}
+    <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}

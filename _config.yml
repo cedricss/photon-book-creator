@@ -1,0 +1,20 @@
+full_rebuild: true
+name: Photon
+author: Cédric Soulas
+url: https://github.com/cedricss/photon
+version: 1.0
+encoding: utf-8
+defaults:
+  -
+    values:
+      layout: "index"
+markdown: kramdown
+kramdown:
+  input: GFM
+relative_permalinks: false
+exclude: [
+.git,
+.gitignore,
+README.md,
+LICENSE
+]
