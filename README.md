@@ -1,6 +1,12 @@
-# Photon
+# Photon Book Creator
 
-A lightweight Jekyll documentation theme.
+A light documentation and book template based on [Jekyll](https://jekyllrb.com/).
+
+![Photon Book Creator screenshot](https://github.com/github/photon-book-creator/blob/master/img/photon-book-creator.png)
+
+# Credits
+
+- [CREDITS.md](CREDITS.md)
 
 # Author
 

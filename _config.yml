@@ -1,5 +1,5 @@
 full_rebuild: true
-name: Photon
+name: Photon Book Creator
 author: Cédric Soulas
 url: https://github.com/cedricss/photon
 version: 1.0
