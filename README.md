@@ -2,7 +2,7 @@
 
 A light documentation and book template based on [Jekyll](https://jekyllrb.com/).
 
-![Photon Book Creator screenshot](https://github.com/github/photon-book-creator/blob/master/img/photon-book-creator.png)
+![Photon Book Creator screenshot](https://github.com/cedricss/photon-book-creator/blob/master/img/photon-book-creator.png)
 
 # Credits
 
