@@ -1,6 +1,8 @@
 ---
 ---
 
+$nav-width: 320px;
+  
 html {
   padding: 0;
   margin: 0;
@@ -11,7 +13,7 @@ body {
 }
 
 nav {
-  width: 240px;
+  width: $nav-width;
   position: fixed;
   left: 0;
   top: 0;
@@ -19,17 +21,12 @@ nav {
   overflow-x: hidden;
   overflow-y: hidden;
   min-height: 100%;
-  
-  h1 {
-    padding-top: 44px;
-  }
-  
-  h1, h2, ul a {
+
+  h1, h2, ul {
     padding-left: 40px;
     width: 100%;
     display: block;
   }
-
 }
 
 .scroll {
@@ -40,18 +37,23 @@ nav {
 }
 
 section {
-  margin-left: 240px;
+  margin-left: $nav-width;
   width:auto;
-  max-width: 800px;
   float: none;
   min-height: 100%;
-  padding: 40px 40px 0 40px;
   text-align: justify;
+
+  h1, h2, h3, ul, & > p, blockquote, pre {
+    max-width: 800px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 
+
 footer {
-  margin-left: 240px;
-  padding: 0 0 40px 40px;
+  margin: 40px 0 0 $nav-width;
+  padding: 40px 0 40px 40px;
   p {
     margin: 0;
   }
@@ -70,10 +72,13 @@ footer {
       padding-top: 15px;
     }
     
-    h1, h2, a {
+    h1, h2, ul {
       padding-left: 15px;
     }
     
+    hr {
+      max-width: none !important;
+    } 
   }
   
   section {

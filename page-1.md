@@ -1,7 +1,9 @@
 ---
 ---
 
-# Page 1
+<header>
+<h1>Lorem ipsum dolor sit amet</h1>
+</header>
 
 ## Section 1
 

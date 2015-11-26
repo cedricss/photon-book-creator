@@ -1,33 +1,6 @@
 ---
 ---
 
-@import "themes/minimal.css";
+@import "themes/{{ site.theme }}/theme.css";
 @import "layout.css";
-
-nav {
-  
-  h1 {
-    a {
-      color: black;
-    }
-    font-size: 18px;
-  }
-  
-  h2 {
-    margin: 0 0 10px 0;
-    font-size: 16px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    a {
-      font-size: 13px;
-      line-height: 28px;
-      color:#39c;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
+@import "themes/{{ site.theme }}/overrides.css";

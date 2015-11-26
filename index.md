@@ -3,9 +3,13 @@ layout: index
 title: index
 ---
 
-# Introduction
+<header>
+<h1>Introduction</h1>
+</header>
 
-Sed fermentum tellus elit, eget convallis felis sollicitudin. Nullam et erat ut tellus vestibulum ornare. Aliquam dictum blandit cursus. Vestibulum lectus risus, dignissim suscipit gravida sit amet, porta quis metus. Maecenas et vulputate dui. Maecenas non scelerisque nibh, ac suscipit augue. Aenean sed iaculis odio.
+## Sed eget 
+
+Tellus elit, eget convallis felis sollicitudin. Nullam et erat ut tellus vestibulum ornare. Aliquam dictum blandit cursus. Vestibulum lectus risus, dignissim suscipit gravida sit amet, porta quis metus. Maecenas et vulputate dui. Maecenas non scelerisque nibh, ac suscipit augue. Aenean sed iaculis odio.
 
 - [Duis laoreet](page-1.html)
 - [Cras a neque nibh](page-1.html)
