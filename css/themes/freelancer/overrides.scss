@@ -7,15 +7,24 @@ nav {
   h1, h2, h1 a {
     color:white;
   }
-  
+
   h1 {
     font-size: 18px;
     padding-top: 44px;
   }
-  
+
   h2 {
     margin: 25px 0 2px 0;
     font-size: 16px;
+    hr {
+      margin-top: 32px;
+      border-color: #576675;
+      color: #576675;
+      border-top: solid 2px;
+      max-width: 250px;
+      margin-right: 35px;
+      margin-bottom: 10px;
+    }
   }
       
   a, a:hover, a:focus, a:active, a.active {
@@ -24,11 +33,22 @@ nav {
   }
   
   a {
-      color: #18bc9c;
-      text-decoration: none;
+    color: #18bc9c;
+    text-decoration: none;
   }
   
   ul {
+    list-style: none;
+
+    .fa {
+      font-size: 15px;
+      color: #7E8FA0;
+    }
+
+    li {
+      margin-left: 0;
+      padding-left: 0;
+    }
     a {
       font-size: 16px;
     }

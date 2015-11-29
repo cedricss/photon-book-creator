@@ -2,6 +2,9 @@
 ---
 
 nav {
+  hr {
+    display: none;
+  }
   
   h1 {
     margin-top: 40px;
@@ -14,19 +17,20 @@ nav {
   h2 {
     font-size: 16px;
     margin-bottom: 5px;
-  }
-
-  hr {
-    display: none;
+    hr {
+      display: block;
+      color: #EBF4F9;
+      background-color: #EBF4F9;
+    }
   }
   
   ul {
     list-style: none;
-    
+
     li {
       margin-left: 0;
       padding-left: 0;
-      
+
       a {
         font-size: 13px;
       }

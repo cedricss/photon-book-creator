@@ -2,7 +2,7 @@
 <hr class="star-light">
 {% for entry in site.data.toc.entries %}
 <h2>{{ entry.title }}</h2>
-<ul>
+<ul class="{{ entry.class }}">
     {% for page in entry.pages %}
     <li>
         <a href="{{ page.url }}">{{ page.title }}</a>

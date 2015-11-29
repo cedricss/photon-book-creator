@@ -44,3 +44,37 @@ entries:
 
   - title: Page 8
     url: page-1.html
+
+- title: Entry 4
+  pages:
+
+  - title: Page 9
+    url: page-1.html
+
+  - title: Page 10
+    url: page-1.html
+
+  - title: Page 11
+    url: page-1.html
+
+- title: <hr/>
+  class: inline bottom
+  pages:
+
+  - title: <i class="fa fa-github"></i>
+    url: https://github.com/cedricss/photon-book-creator
+
+  - title: <i class="fa fa-twitter"></i>
+    url: https://twitter.com/CedricSoulas
+
+  - title: <i class="fa fa-facebook"></i>
+    url:
+
+  - title: <i class="fa fa-youtube"></i>
+    url:
+
+  - title: <i class="fa fa-linkedin"></i>
+    url:
+
+  - title: <i class="fa fa-rss"></i>
+    url:
