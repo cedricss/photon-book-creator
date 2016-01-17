@@ -1,7 +1,9 @@
 full_rebuild: true
 name: Photon Book Creator
 author: Cédric Soulas
-url: https://github.com/cedricss/photon-book-creator
+url: https://cedricss.github.io/photon-book-creator
+repository: https://github.com/cedricss/photon-book-creator
+branch: gh-pages
 version: 1.0
 encoding: utf-8
 theme: minimal

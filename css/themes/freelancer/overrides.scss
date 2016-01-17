@@ -67,7 +67,7 @@ nav {
 }
 
 header {
-  padding: 40px 0 20px 0;
+  padding: 0 0 20px 0;
   text-align: left;
   margin-bottom: 0px;
   
@@ -87,6 +87,16 @@ header {
 
 section {
   padding: 0;
+  
+  #contribute {
+      background: #18bc9c;
+      padding: 20px 20px 20px 0;
+      a {
+        font-size: 14px;
+        max-width: none;
+        color: #91FDE8;
+      }
+  }
   
   h1, h2, h3 {
     text-transform: none;
