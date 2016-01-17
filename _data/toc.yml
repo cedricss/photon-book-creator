@@ -1,6 +1,6 @@
 entries:
 
-- title: Entry 1
+- title: This is an entry
   pages:
 
   - title: Page 1
@@ -24,7 +24,7 @@ entries:
     - title: Section b
     - title: Section c
 
-- title: Entry 2
+- title: Here is another entry
   pages:
 
   - title: Page 4
@@ -33,7 +33,7 @@ entries:
   - title: Page 5
     url: page-1.html
 
-- title: Entry 3
+- title: This is entry number 3
   pages:
 
   - title: Page 6
@@ -45,7 +45,7 @@ entries:
   - title: Page 8
     url: page-1.html
 
-- title: Entry 4
+- title: The last entry
   pages:
 
   - title: Page 9

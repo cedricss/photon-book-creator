@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include head.html %}
-        {% include analytics.html %}
-    </head>
-    <body>
-        <div class="wrapper">
-            <nav>
-                <div class="scroll">
-                    {% include nav.html %}
-                </div>
-            </nav>
-            <section>
-                <div id="contribute">
-                    <a href="{{ site.repository }}/blob/{{ site.branch }}/{{ page.path }}" class="fa fa-github"> Contribute to this page</a>
-                </div>
-                {{ content }}
-            </section>
-            <footer>
-                {% include footer.html %}
-            </footer>
-        </div>
-    </body>
+
+<head>
+    {% include head.html %} {% include analytics.html %}
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{ " /css/font-awesome/css/font-awesome.min.css " }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="scroll">
+                {% include nav.html %}
+            </div>
+        </nav>
+        <section>
+            <div id="contribute">
+                <a href="{{ site.repository }}/blob/{{ site.branch }}/{{ page.path }}" class="fa fa-github"> Contribute to this page</a>
+            </div>
+            {{ content }}
+        </section>
+        <footer>
+            {% include footer.html %}
+        </footer>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+</body>
+
 </html>

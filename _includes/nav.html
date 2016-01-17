@@ -1,6 +1,9 @@
+<div class="sidebar-nav-item sidebar-nav-top">
 <h1><a href="index.html">{{ site.name }}</a></h1>
 <hr class="star-light">
+</div>
 {% for entry in site.data.toc.entries %}
+<div class="sidebar-nav-item">
 <h2>{{ entry.title }}</h2>
 <ul class="{{ entry.class }}">
     {% for page in entry.pages %}
@@ -9,4 +12,5 @@
     </li>
     {% endfor %}
 </ul>
+</div>
 {% endfor %}

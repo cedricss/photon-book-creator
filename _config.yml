@@ -1,16 +1,17 @@
 full_rebuild: true
 name: Photon Book Creator
+tagline: A light documentation and book template based on Jekyll.
 author: Cédric Soulas
 url: https://cedricss.github.io/photon-book-creator
 repository: https://github.com/cedricss/photon-book-creator
 branch: gh-pages
 version: 1.0
 encoding: utf-8
-theme: minimal
+theme: lanyon
 defaults:
   -
     values:
-      layout: "index"
+      layout: "lanyon"
 markdown: kramdown
 kramdown:
   input: GFM

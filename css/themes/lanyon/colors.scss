@@ -1,0 +1,67 @@
+---
+---
+
+/*
+ * Themes
+ *
+ * Apply custom color schemes by adding the appropriate class to the `body`.
+ * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
+ */
+
+
+// BLACK
+$primary-color: #121212;
+$secondary-color: #272727;
+
+// VIOLET
+// $primary-color: #595C9E;
+// $secondary-color: #7266ba;
+
+// DARK BLUE
+// $primary-color: #293846;
+// $secondary-color: #304252;
+
+//RED: #ac4142    :|
+//ORANGE: #d28445 :|
+//YELLOW: #f4bf75 :(
+//GREEN: #90a959  :|
+//CYAN: #75b5aa   :)
+//BLUE: #6a9fb5   :)
+//MAGENTA: #aa759f :)
+//BROWN: #8f5536  :|
+
+.sidebar {
+    background-color: $secondary-color;
+}
+/* Blue */
+.theme-base-0d .sidebar-nav-top,
+.theme-base-0d .sidebar-toggle:active,
+.theme-base-0d #sidebar-checkbox:focus ~ .sidebar-toggle,
+.theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: $primary-color;
+}
+
+.theme-base-0d .sidebar-toggle:before {
+  background-image: -webkit-linear-gradient(to bottom, $primary-color, $primary-color 20%, #fff 20%, #fff 40%, $primary-color 40%, $primary-color 60%, #fff 60%, #fff 80%, $primary-color 80%, $primary-color 100%);
+  background-image:    -moz-linear-gradient(to bottom, $primary-color, $primary-color 20%, #fff 20%, #fff 40%, $primary-color 40%, $primary-color 60%, #fff 60%, #fff 80%, $primary-color 80%, $primary-color 100%);
+  background-image:     -ms-linear-gradient(to bottom, $primary-color, $primary-color 20%, #fff 20%, #fff 40%, $primary-color 40%, $primary-color 60%, #fff 60%, #fff 80%, $primary-color 80%, $primary-color 100%);
+  background-image:         linear-gradient(to bottom, $primary-color, $primary-color 20%, #fff 20%, #fff 40%, $primary-color 40%, $primary-color 60%, #fff 60%, #fff 80%, $primary-color 80%, $primary-color 100%);
+}
+
+.theme-base-0d .sidebar-toggle:active:before,
+.theme-base-0d #sidebar-checkbox:focus ~ .sidebar-toggle:before,
+.theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle:before {
+  background-image: linear-gradient()(to bottom, #fff, #fff 20%, $primary-color 20%, $primary-color 40%, #fff 40%, #fff 60%, $primary-color 60%, $primary-color 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, $primary-color 20%, $primary-color 40%, #fff 40%, #fff 60%, $primary-color 60%, $primary-color 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, $primary-color 20%, $primary-color 40%, #fff 40%, #fff 60%, $primary-color 60%, $primary-color 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, $primary-color 20%, $primary-color 40%, #fff 40%, #fff 60%, $primary-color 60%, $primary-color 80%, #fff 80%, #fff 100%);
+ }
+
+
+.theme-base-0d .container a,
+.theme-base-0d .sidebar-toggle,
+.theme-base-0d .related-posts li a:hover {
+  color: $primary-color;
+}
+
+

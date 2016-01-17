@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %} {% include analytics.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/themes/lanyon/poole.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/themes/lanyon/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/themes/lanyon/lanyon.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/themes/lanyon/colors.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/themes/lanyon/overrides.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+
+<body class="theme-base-0d">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="scroll">
+            <nav class="sidebar-nav">
+                {% include nav.html %}
+            </nav>
+        </div>
+    </div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+        <div class="masthead">
+            <div class="container">
+                <h3 class="masthead-title">
+                    <a href="{{ site.baseurl }}/" title="Home">{{ site.name }}</a>
+                    <small>{{ site.tagline }}</small>
+                </h3>
+            </div>
+        </div>
+
+        <div class="container content">
+            <section>
+                <div id="contribute">
+                    <a href="{{ site.repository }}/blob/{{ site.branch }}/{{ page.path }}" class="fa fa-github"> Contribute to this page</a>
+                </div>
+                {{ content }}
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                {% include footer.html %}
+            </div>
+        </footer>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+        (function (document) {
+            var toggle = document.querySelector('.sidebar-toggle');
+            var sidebar = document.querySelector('#sidebar');
+            var checkbox = document.querySelector('#sidebar-checkbox');
+
+            document.addEventListener('click', function (e) {
+                var target = e.target;
+
+                if (!checkbox.checked ||
+                    sidebar.contains(target) ||
+                    (target === checkbox || target === toggle)) return;
+
+                checkbox.checked = false;
+            }, false);
+        })(document);
+    </script>
+</body>
+
+</html>
