@@ -11,10 +11,6 @@ defaults:
   -
     values:
       layout: "index"
-markdown: kramdown
-kramdown:
-  input: GFM
-relative_permalinks: false
 exclude: [
 .git,
 .gitignore,
