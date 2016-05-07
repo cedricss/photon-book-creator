@@ -4,17 +4,17 @@ author: Cédric Soulas
 url: https://cedricss.github.io/photon-book-creator
 repository: https://github.com/cedricss/photon-book-creator
 branch: gh-pages
-version: 1.0
+version: 1.3
 encoding: utf-8
-theme: minimal
+themes:
+    # General themes available: minimal, freelancer
+    general: minimal
+    # Code block themes available: monokai, github, vs
+    code: monokai
 defaults:
   -
     values:
       layout: "index"
-markdown: kramdown
-kramdown:
-  input: GFM
-relative_permalinks: false
 exclude: [
 .git,
 .gitignore,

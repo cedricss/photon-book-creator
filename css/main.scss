@@ -1,6 +1,7 @@
 ---
 ---
 
-@import "themes/{{ site.theme }}/theme.css";
+@import "themes/{{ site.themes.general }}/theme.css";
 @import "layout.css";
-@import "themes/{{ site.theme }}/overrides.css";
+@import "themes/{{ site.themes.general }}/overrides.css";
+@import "code/{{ site.themes.code }}.css";
