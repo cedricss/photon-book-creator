@@ -6,6 +6,7 @@
 ## 1.3 (May 7, 2016)
 
 - New support of syntax highlighting in code blocks
+- Fix github link font
 
 ## 1.2 (Jan 17, 2016)
 
