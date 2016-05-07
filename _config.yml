@@ -6,7 +6,11 @@ repository: https://github.com/cedricss/photon-book-creator
 branch: gh-pages
 version: 1.0
 encoding: utf-8
-theme: minimal
+themes:
+    # General themes available: minimal, freelancer
+    general: minimal
+    # Code block themes available: monokai, github, vs
+    code: monokai
 defaults:
   -
     values:
