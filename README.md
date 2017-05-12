@@ -11,11 +11,11 @@ A light documentation and book template based on [Jekyll](https://jekyllrb.com/)
 
 ### Minimal Theme
 
-<a href="http://cedricss.github.io/photon-book-creator"><img  src="https://raw.githubusercontent.com/cedricss/photon-book-creator/master/img/photon-theme-minimal.png"</img></a>
+<a href="http://cedricss.github.io/photon-book-creator"><img  src="https://raw.githubusercontent.com/cedricss/photon-book-creator/master/img/photon-theme-minimal.png" /></a>
 
 ### Freelancer Theme
 
-<a href="http://cedricss.github.io/photon-book-creator"><img  src="https://raw.githubusercontent.com/cedricss/photon-book-creator/master/img/photon-theme-freelancer.png"</img></a>
+<a href="http://cedricss.github.io/photon-book-creator"><img  src="https://raw.githubusercontent.com/cedricss/photon-book-creator/master/img/photon-theme-freelancer.png" /></a>
 
 ## Configuration
 
